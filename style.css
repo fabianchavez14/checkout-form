@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background-color:rgb(236, 236, 236);
+    padding-bottom: 70px;
+}
+
+.container form {
+    padding: 20px;
+    width: 700px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .col {
+    flex: 1 1 250px;
+}
+
+.container form .row .col .title {
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 15px;
+
+}
+
+.container form .row .col .inputBox {
+    margin: 15px 0;
+}
+
+.container form .row .col .inputBox span {
+    margin-bottom: 15px;
+    
+}
+
+strong {
+    color: rgb(216, 0, 0);
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.container form .row .col .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.container form .row .col .flex {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.container form .row .col .flex .inputBox {
+    margin-top: 0px;
+}
+
+.container form #submit {
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    padding: 12px;
+    font-size: 17px;
+    background-color: black;
+    margin-top: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.container form #submit:hover {
+    background-color:rgb(73, 73, 73);
+
+}
+
+i {
+    margin-right: 10px;
+    margin-top: 17px;
+}
